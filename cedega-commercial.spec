@@ -1,14 +1,14 @@
 Summary:	A commercial version of cedega WINE
 Summary(pl):	Komercyjna wersja WINE w wersji cedega
 Name:		cedega-commercial
-Version:	4.0
+Version:	4.0.1
 Release:	1
-Copyright:	 2000-2004 TransGaming Technologies Inc.
+Copyright:	2000-2004 TransGaming Technologies Inc.
 #License:	Check /usr/share/doc/cedega/copyright
 Group:		Applications
 Vendor:		TransGaming Technologies Inc.
 Source0:	cedega_%{version}-1.i386.tgz
-# NoSource0-md5:	438e04b5e065ae52c6a5c26fd8f5c95
+# NoSource0-md5:	acd6fdea8534bf828e6d186ea6343c24
 URL:		http://www.transgaming.com
 BuildRequires:	tar
 Requires:       OpenGL
