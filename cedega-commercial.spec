@@ -9,6 +9,7 @@ Group:		Applications
 Vendor:		TransGaming Technologies Inc.
 Source0:	cedega_%{version}-1.i386.tgz
 URL:		http://www.transgaming.com
+BuildRequires:	sed >= 4.0
 BuildRequires:	tar
 Requires:	OpenGL
 ExclusiveArch:	%{ix86}
