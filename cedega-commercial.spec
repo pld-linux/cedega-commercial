@@ -29,6 +29,9 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT
 %{__tar} xfz %{SOURCE0} -C $RPM_BUILD_ROOT
 
+# cedega is a bash script
+%{__sed} -i -e 's,#!/bin/sh,#!/bin/bash,' $RPM_BUILD_ROOT%{_bindir}/cedega
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
