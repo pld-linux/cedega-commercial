@@ -1,7 +1,7 @@
 Summary:	A commercial version of cedega WINE
 Summary(pl):	Komercyjna wersja WINE w wersji cedega
 Name:		cedega-commercial
-Version:	4.2
+Version:	4.3
 Release:	1
 Copyright:	2000-2004 TransGaming Technologies Inc.
 #License:	Check /usr/share/doc/cedega/copyright
