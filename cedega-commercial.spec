@@ -10,14 +10,14 @@ Vendor:		TransGaming Technologies Inc.
 Source0:	cedega_%{version}-1.i386.tgz
 URL:		http://www.transgaming.com
 BuildRequires:	tar
-Requires:       OpenGL
+Requires:	OpenGL
 ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define         no_install_post_strip   1
+%define		no_install_post_strip	1
 
 %description
-A modified  WINE version with DirectX 9 support.
+A modified WINE version with DirectX 9 support.
 
 %description -l pl
 Rozszerzona wersja WINE z obs³ug± DirectX 9.
