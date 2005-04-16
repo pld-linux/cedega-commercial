@@ -1,10 +1,9 @@
 Summary:	A commercial version of cedega WINE
 Summary(pl):	Komercyjna wersja WINE w wersji cedega
 Name:		cedega-commercial
-Version:	4.3
+Version:	4.3.1
 Release:	1
-Copyright:	2000-2004 TransGaming Technologies Inc.
-#License:	Check /usr/share/doc/cedega/copyright
+License:	Check /usr/share/doc/cedega/copyright
 Group:		Applications
 Vendor:		TransGaming Technologies Inc.
 Source0:	cedega_%{version}-1.i386.tgz
@@ -53,6 +52,6 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_libdir}/transgaming_cedega/winex/bin/*
 %attr(755,root,root) %{_libdir}/transgaming_cedega/winex/*lib/*.so*
 %{_libdir}/transgaming_cedega/winex/*lib/*.a
-
+%{_mandir}/man1/cedega.1*
 # The licence
 %{_defaultdocdir}/cedega
