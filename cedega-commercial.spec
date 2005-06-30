@@ -7,7 +7,8 @@ License:	Check /usr/share/doc/cedega/copyright
 Group:		Applications
 Vendor:		TransGaming Technologies Inc.
 Source0:	cedega_%{version}-1.i386.tgz
-# Source0-md5:	20592555c86cae4f4638e69281b80a8d
+# NoSource0-md5:	20592555c86cae4f4638e69281b80a8d
+NoSource:	0
 URL:		http://www.transgaming.com
 BuildRequires:	sed >= 4.0
 BuildRequires:	tar
