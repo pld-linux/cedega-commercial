@@ -5,13 +5,11 @@ Version:	4.4
 Release:	1
 License:	Check /usr/share/doc/cedega/copyright
 Group:		Applications
-Vendor:		TransGaming Technologies Inc.
 Source0:	cedega_%{version}-1.i386.tgz
 # NoSource0-md5:	589a5d4a698e8c7336c67c1afb6d986d
 NoSource:	0
 URL:		http://www.transgaming.com/
 BuildRequires:	sed >= 4.0
-BuildRequires:	tar
 Requires:	OpenGL
 ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -56,4 +54,4 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/transgaming_cedega/winex/*lib/*.a
 %{_mandir}/man1/cedega.1*
 # The licence
-%{_defaultdocdir}/cedega
+%{_docdir}/cedega
