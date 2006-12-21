@@ -2,7 +2,7 @@ Summary:	A commercial version of cedega WINE
 Summary(pl):	Komercyjna wersja WINE w wersji cedega
 Name:		cedega-commercial
 Version:	4.4
-Release:	1
+Release:	2
 License:	Check /usr/share/doc/cedega/copyright
 Group:		Applications
 Source0:	cedega_%{version}-1.i386.tgz
@@ -15,6 +15,9 @@ ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		no_install_post_strip	1
+
+# list of script capabilities (regexps) not to be used in Provides
+%define		_noautoprov			libGLU.so.1
 
 %description
 A modified WINE version with DirectX 9 support.
