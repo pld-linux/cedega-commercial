@@ -1,5 +1,5 @@
 Summary:	A commercial version of cedega WINE
-Summary(pl):	Komercyjna wersja WINE w wersji cedega
+Summary(pl.UTF-8):   Komercyjna wersja WINE w wersji cedega
 Name:		cedega-commercial
 Version:	4.4
 Release:	2
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A modified WINE version with DirectX 9 support.
 
-%description -l pl
-Rozszerzona wersja WINE z obs³ug± DirectX 9.
+%description -l pl.UTF-8
+Rozszerzona wersja WINE z obsÅ‚ugÄ… DirectX 9.
 
 %prep
 
