@@ -1,5 +1,5 @@
 Summary:	A commercial version of cedega WINE
-Summary(pl.UTF-8):   Komercyjna wersja WINE w wersji cedega
+Summary(pl.UTF-8):	Komercyjna wersja WINE w wersji cedega
 Name:		cedega-commercial
 Version:	4.4
 Release:	2
