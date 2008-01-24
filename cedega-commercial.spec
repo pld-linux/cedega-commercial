@@ -14,8 +14,6 @@ Requires:	OpenGL
 ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		no_install_post_strip	1
-
 # list of script capabilities (regexps) not to be used in Provides
 %define		_noautoprov			libGLU.so.1
 
